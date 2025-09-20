@@ -27,8 +27,8 @@ public class BankAccountMenu {
                     System.out.print("Enter the amount you want to add: ");
                     amount = scan.nextDouble();
                     balance+=amount;
-                    System.out.println("Successfully added "+amount);
-                    System.out.println("New balance: "+balance);
+                    System.out.println("Successfully added $"+amount);
+                    System.out.println("New balance: $"+balance);
                     break;
                 case 2:
                     System.out.println("Enter the amount you want to withdrawal");
@@ -37,11 +37,12 @@ public class BankAccountMenu {
                         System.out.println("Insufficient funds");
                     } else {
                         balance-=amount;
-                        System.out.println(amount+" withdrew.\nNew balance: "+balance);
+                        System.out.println("$"+amount+" withdrew.\nNew balance: $"+balance);
                     }
                     break;
                 case 3:
-                    System.out.println("Current balance: "+balance);
+                    System.out.println("Current balance: $"+balance);
+                    break;
             }
         }
     }
