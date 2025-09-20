@@ -13,7 +13,7 @@ public class BankAccountMenu {
         double balance = 0, amount;
         int choice;
         Scanner scan = new Scanner(System.in);
-
+        // actual stuff
         while(true) {
 
             System.out.println("---Bank Account Menu---");
