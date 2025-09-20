@@ -20,7 +20,7 @@ public class BankAccountMenu {
             System.out.println("1. Add Money\n2. Withdrawal Money\n3. Check Balance\n4. Exit");
             choice = scan.nextInt();
 
-            if (choice == 4) System.exit(0);
+            if (choice == 4) break;
 
             switch (choice) {
                 case 1:
